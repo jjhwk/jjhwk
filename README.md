@@ -35,6 +35,8 @@
 - 사용 라이브러리 : `pandas`, `numpy`, `keras`, `torch`, `tensorflow`, `scipy`, `Resnet50`, `VGG19`,`konlpy`, `nltk`, `sentence_transformers`, etc.
 - 인원 : 4명
 - 기간 : 24.05.20 ~ 24.06.14
+- 담당 역할 : 크롤링, 이미지 전처리, 이미지 스타일 다중분류, DB구현, 웹 구현
 - 내용 : 무신사에서 스타일별 이미지 및 텍스트 데이터 `크롤링`, `데이터 전처리`(이미지 배경 제거, 이미지 증강, 텍스트 임베딩),
          `이미지 분류 모델링`(이진, 다중), `이미지 유사도 분석`, `텍스트 임베딩 모델링`, `텍스트 유사도 분석`, `웹 구현`
-- 결과물 : [웹 주소], [요약 보고서](https://github.com/jjhwk/PMF/blob/main/PMF.pdf), [개발 소스코드]
+- 결과물 : [웹 주소], [요약 보고서](https://github.com/jjhwk/PMF/blob/main/PMF.pdf), [이미지모델 소스코드](https://github.com/jjhwk/PMF/blob/main/%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C/%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EB%AA%A8%EB%8D%B8%EB%A7%81/%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EC%8A%A4%ED%83%80%EC%9D%BC%EB%B3%84%20%EB%B6%84%EB%A5%98.ipynb),
+          [이미지 유사도분석 소스코드](https://github.com/jjhwk/PMF/blob/main/%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C/%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EB%AA%A8%EB%8D%B8%EB%A7%81/%EC%9D%B4%EB%AF%B8%EC%A7%80_%EC%9E%84%EB%B2%A0%EB%94%A9_%EC%BD%94%EB%93%9C%EC%A0%95%EB%A6%AC_%ED%81%B4%EB%9E%98%EC%8A%A4%EB%A1%9C%EB%AC%B6%EA%B8%B0.ipynb)
