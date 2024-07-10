@@ -51,8 +51,12 @@
       - 모델이 텍스트 분류시 동의어를 판단할 수 있도록 단어장을 만들었습니다.(20번 이상 나온 단어들만 사용) 
   - 모델링
     - 이미지 분류 모델
-      -   
-         `이미지 분류 모델링`(이진, 다중), `이미지 유사도 분석`, `텍스트 임베딩 모델링`, `텍스트 유사도 분석`, `웹 구현`
+      - 이진 분류 모델에서는 이미지가 옷인지 아닌지 판단할 수 있도록 학습시켰습니다.(CNN의 VGG19사용)
+      - 다중 분류 모델에서는 이미지가 어떤 스타일의 옷인지 판단할 수 있도록 학습시켰습니다.(CNN의 ResNet50 사용)
+      - 유사도 분석 모델에서는 입력된 이미지와 저장된 이미지들의 유사도를 비교하여 가장 높은 top10을 출력 할 수 있도록 학습시켰습니다.(Cosine유사도, ResNet50 사용)
+    - 텍스트 분류 모델
+      - 
+          `텍스트 임베딩 모델링`, `텍스트 유사도 분석`, `웹 구현`
   
 - 결과물 바로가기: ☞ [요약 보고서](https://github.com/jjhwk/PMF/blob/main/PMF_.pdf), ☞ [이미지모델 소스코드](https://github.com/jjhwk/PMF/blob/main/%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C/%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EB%AA%A8%EB%8D%B8%EB%A7%81/%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EC%8A%A4%ED%83%80%EC%9D%BC%EB%B3%84%20%EB%B6%84%EB%A5%98.ipynb),
           ☞ [이미지 유사도분석 소스코드](https://github.com/jjhwk/PMF/blob/main/%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C/%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EB%AA%A8%EB%8D%B8%EB%A7%81/%EC%9D%B4%EB%AF%B8%EC%A7%80_%EC%9E%84%EB%B2%A0%EB%94%A9_%EC%BD%94%EB%93%9C%EC%A0%95%EB%A6%AC_%ED%81%B4%EB%9E%98%EC%8A%A4%EB%A1%9C%EB%AC%B6%EA%B8%B0.ipynb), ☞ [웹 주요코드](https://github.com/jjhwk/PMF/blob/main/recommand/views.py)
