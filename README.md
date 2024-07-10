@@ -56,6 +56,10 @@
       - '유사도 분석 모델'에서는 입력된 이미지와 저장된 이미지들의 유사도를 비교하여 가장 높은 top10을 출력할 수 있도록 학습시켰습니다. (Cosine유사도, ResNet50 사용)
     - 텍스트 분류 모델
       - '유사도 분석 모델'에서는 입력된 텍스트와 저장된 임베딩 된 텍스트들의 유사도를 비교하여 가장 높은 top5를 출력할 수 있도록 학습시켰습니다. (Cosine유사도, SBert 사용)
+  - DB 구성
+    - 총 4개의 테이블로 구성 하였으며 남/여 각각 상세 '옷 id값'으로 상속되도록 구현하였습니다.
+    - 남/여 이미지 데이터 정보 테이블
+    - 남/여 상세 옷 정보 테이블
 
   
 - 결과물 바로가기: ☞ [요약 보고서](https://github.com/jjhwk/PMF/blob/main/PMF_.pdf), ☞ [이미지모델 소스코드](https://github.com/jjhwk/PMF/blob/main/%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C/%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EB%AA%A8%EB%8D%B8%EB%A7%81/%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EC%8A%A4%ED%83%80%EC%9D%BC%EB%B3%84%20%EB%B6%84%EB%A5%98.ipynb),
