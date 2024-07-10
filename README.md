@@ -62,6 +62,8 @@
     - 남/여 상세 옷 정보 테이블
   - 웹 구성
     - 메인 페이지 ☞ 남/여 스타일 업로드 페이지 ☞ 스타일 정보 페이지 ☞ 옷 상세정보 페이지 ☞ 옷 구매 페이지 순으로 넘어갈 수 있도록 구성하였습니다.
-  
+      
+  - 전처리 기법 및 모델 사용 이유, 웹 페이지 구성의 보다 자세한 내용은 ☞ [요약 보고서](https://github.com/jjhwk/PMF/blob/main/PMF_.pdf) 에서 확인 하실 수 있습니다.
+  - 
 - 결과물 바로가기: ☞ [요약 보고서](https://github.com/jjhwk/PMF/blob/main/PMF_.pdf), ☞ [이미지모델 소스코드](https://github.com/jjhwk/PMF/blob/main/%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C/%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EB%AA%A8%EB%8D%B8%EB%A7%81/%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EC%8A%A4%ED%83%80%EC%9D%BC%EB%B3%84%20%EB%B6%84%EB%A5%98.ipynb),
           ☞ [이미지 유사도분석 소스코드](https://github.com/jjhwk/PMF/blob/main/%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C/%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EB%AA%A8%EB%8D%B8%EB%A7%81/%EC%9D%B4%EB%AF%B8%EC%A7%80_%EC%9E%84%EB%B2%A0%EB%94%A9_%EC%BD%94%EB%93%9C%EC%A0%95%EB%A6%AC_%ED%81%B4%EB%9E%98%EC%8A%A4%EB%A1%9C%EB%AC%B6%EA%B8%B0.ipynb), ☞ [웹 주요코드](https://github.com/jjhwk/PMF/blob/main/recommand/views.py)
