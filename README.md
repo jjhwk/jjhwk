@@ -25,7 +25,7 @@
   - 부서 : 연구소 기구개발팀
   - 내용 : 제품 테스트(풍량, 소음, 전압), ERP를 활용한 자재관리
 
-# 포트폴리오
+# 프로젝트
 ## [PMF - 딥러닝/머신러닝을 활용한 옷 추천 서비스]
 - 개발언어 및 프레임워크 : `Python`, `SQL`, `Django`, `JavaScript`, `Html`, `CSS`
 - 작업툴 : `Jupyter Notebook`, `Visual Studio Code`, `DBeaver`, `Notion`
